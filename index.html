@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela Responsiva Bootstrap 5</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/css/bootstrap.min.css">
+</head>
+<style>
+    .container-fluid {
+    height: 1980px;
+    max-width: 1080px;
+}
+
+@media (max-width: 767.98px) {
+    .row {
+        height: auto !important;
+    }
+    .col-md-3, .col-md-4, .col-md-9 {
+        width: 100%;
+    }
+}
+
+
+
+</style>
+<body>
+    <div class="container-fluid">
+        <div class="row" style="height: 10%;">
+            <div class="col-md-3" style="background-color: #ccc;">Coluna 1</div>
+            <div class="col-md-9" style="background-color: #ddd;">Coluna 2</div>
+        </div>
+        <div class="row" style="height: 20%;">
+            <div class="col-md-12" style="background-color: #eee;">Coluna 1</div>
+        </div>
+        <div class="row" style="height: 30%;">
+            <div class="col-md-4" style="background-color: #fff;"><img src="imagem1.jpg" alt="Imagem 1"></div>
+            <div class="col-md-4" style="background-color: #fff;"><img src="imagem2.jpg" alt="Imagem 2"></div>
+            <div class="col-md-4" style="background-color: #fff;"><img src="imagem3.jpg" alt="Imagem 3"></div>
+        </div>
+        <div class="row" style="height: 10%;">
+            <div class="col-md-12" style="background-color: #eee;">Coluna 1</div>
+        </div>
+        <div class="row" style="height: 20%;">
+            <div class="col-md-12" style="background-color: #fff;">Coluna 1</div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
